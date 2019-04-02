@@ -15,3 +15,7 @@ add_curry = add.curry
 
 partial_function = add_curry.(1)
 puts partial_function.(2).(3)
+
+# References:
+# https://en.wikipedia.org/wiki/Currying
+# https://gist.github.com/KamilLelonek/eda2a5476d6e8dc1c351

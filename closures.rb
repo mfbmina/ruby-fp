@@ -74,3 +74,7 @@ def my_method(element)
 end
 
 [1, 2, 3, 4, 5].my_each(&method(:my_method))
+
+# References:
+# https://en.wikipedia.org/wiki/Closure_(computer_programming)
+# https://www.sitepoint.com/functional-programming-techniques-with-ruby-part-ii/

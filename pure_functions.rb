@@ -2,6 +2,12 @@
 # 1. It must return the same value if it has the same arguments
 # 2. The function evaluation must have zero side effects. No mutation.
 
+# Translating we expect that f(x) = x, or in Ruby:
+
+def f(x)
+  x
+end
+
 # I/O is inherently impure: input operations undermine referential transparency, and output operations create side effects.
 # Nevertheless, there is a sense in which function can perform input or output and still be pure,
 # if the sequence of operations on the I/O devices is modeled as an argument and a result,
@@ -52,3 +58,6 @@ def f
   string = "Hello"
   string << " world!"
 end
+
+# References:
+# https://en.wikipedia.org/wiki/Pure_function

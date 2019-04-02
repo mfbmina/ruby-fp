@@ -37,3 +37,7 @@ h = ->(z) { z + 3 }
 resp = f >> g >> h
 
 puts resp.call(1)
+
+# References:
+# https://en.wikipedia.org/wiki/Function_composition
+# https://blog.stanko.io/function-composition-ruby-8f91aea21e5f

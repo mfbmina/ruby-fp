@@ -61,3 +61,6 @@ attributes = object.attributes.merge(bar: 'mynewvalue')
 MyClass.new(attributes)
 
 # Immutable objects are also useful because they are inherently thread-safe, simpler to understand and offer higher security.
+
+# References:
+# https://en.wikipedia.org/wiki/Immutable_object
