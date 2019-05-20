@@ -38,7 +38,7 @@ my_proc.call(100)
 
 [1, 2, 3, 4, 5].my_each(&my_proc)
 
-# ambda is a way to define a block & its parameters with some special syntax
+# lambda is a way to define a block & its parameters with some special syntax
 
 my_lambda = ->(element) { puts element }
 
