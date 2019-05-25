@@ -10,3 +10,4 @@ This is a repo for keeping my studies in FP using Ruby.
 - [Closures](https://github.com/mfbmina/ruby-fp/blob/master/closures.rb)
 - [Currying](https://github.com/mfbmina/ruby-fp/blob/master/currying.rb)
 - [Function composition](https://github.com/mfbmina/ruby-fp/blob/master/function_composition.rb)
+- [Pattern Matching](https://github.com/mfbmina/ruby-fp/blob/master/pattern_matching.rb)
